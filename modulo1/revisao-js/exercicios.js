@@ -147,6 +147,9 @@ return (string1 === string2)
 //    -> NÃO MODIFIQUE OS PARÂMETROS DAS FUNÇÕES!!! ()
 
 
+
+//nao encontrato.
+
 // EXERCÍCIO 01
 function retornaTamanhoArray(array) {
    const tamanhoArray = array.length();
