@@ -103,25 +103,27 @@ return (string1 === string2)
  retornaUltimoElemento ()
  
  
- // EXERCÍCIO 11
- function trocaPrimeiroEUltimo(array) {
-   // implemente sua lógica aqui
- const anoAtual = Number(prompt("Qual ano atual?"))
- const anoDoNUsuario = Number(prompt("qual teu ano de nascimento?"))
- const anoDaID = Number(prompt("qual ano em que sua carteira de identidade foi emitida?"))
-
- }
- 
- // EXERCÍCIO 12
- function checaIgualdadeDesconsiderandoCase(string1, string2) {
-   // implemente sua lógica aqui
- 
+  // EXERCÍCIO 11
+  function trocaPrimeiroEUltimo(array) {
+    // implemente sua lógica aqui
+  const listaAnimais = [gato, raposa, coruja]
+  console.log (frustas.shift)
+  }
+  trocaPrimeiroEUltimo ()
+  
+  // EXERCÍCIO 12
+  function checaIgualdadeDesconsiderandoCase(string1, string2) {
+    // implemente sua lógica aqui
+    return (string1 === string2)
  }
  
  // EXERCÍCIO 13
  function checaRenovacaoRG() {
    // implemente sua lógica aqui
- 
+   const anoAtual = Number(prompt("Qual ano atual?"))
+   const anoDoNUsuario = Number(prompt("qual teu ano de nascimento?"))
+   const anoDaID = Number(prompt("qual ano em que sua carteira de identidade foi emitida?"))
+  
  }
  
  // EXERCÍCIO 14
