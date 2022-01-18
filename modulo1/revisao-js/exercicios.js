@@ -1,7 +1,7 @@
 
 
 // EXEMPLOS DE IMPLEMENTAÇÃO ---------------------------------------------------------------
-
+ //17-01-2022 diane exercicio para f
 // EXERCÍCIO 0A
 function soma(num1, num2) {
    // implemente sua lógica aqui
