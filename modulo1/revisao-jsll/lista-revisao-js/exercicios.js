@@ -23,11 +23,9 @@ function retornaArrayOrdenado(array) {
 console.log(retornaArrayOrdenado ([5,4,3,2,1]))
 
 // EXERCÍCIO 04
-function retornaArrayOrdenado(array) {
-    return array.sort() 
-  }
-  console.log(retornaArrayOrdenado ([5,4,3,2,1]))
+function retornaNumerosPares(array) {
   
+}
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
@@ -36,8 +34,10 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+  return Math.max.apply(Math,array);
 }
+console.log(retornaMaiorNumero([1,2,5,8,6,7]))
+
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
@@ -51,8 +51,16 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
-}
+  if (ladoA === ladoB && ladoC === ladoA) {
+    return "Equilátero"
+  }
+  else if (ladoA === ladoB || ladoA != ladoC){
+    return "Isósceles"
+  }
+  else if (ladoA != ladoB && ladoC != ladoA){
+     return "Escaleno"
+  }
+  }
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
