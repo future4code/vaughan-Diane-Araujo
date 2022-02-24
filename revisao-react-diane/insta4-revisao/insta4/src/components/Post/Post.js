@@ -48,7 +48,7 @@ class Post extends React.Component {
     numeroComentarios: 0
   }
 
-  onClickCurtida = () => {
+  onClickCurtida = () => { //
     let aoCurtirMuda
 
     if(this.state.curtido) {
@@ -57,7 +57,7 @@ class Post extends React.Component {
       aoCurtirMuda = this.state.numeroCurtidas + 1
     }
 
-    this.setState({  // altera o estado inicial conforme o click do usuario 
+    this.setState({  // altera o estado inicial conforme o click do usuario (setState serve como uma ponte p alterar o estado inicial)
       curtido: !this.state.curtido,
       numeroCurtidas: aoCurtirMuda
     })
@@ -65,13 +65,13 @@ class Post extends React.Component {
 
   onClickComentario = () => {
     this.setState({
-      comentando: !this.state.comentando
+      comentando: !this.state.comentando //(a negação ! troca de estado, se tivesse true iria para false)
     })
   }
 
   aoEnviarComentario = () => {
     this.setState({ // o setState vai alterar o estado inicial a partir do q o usuario for comentando
-      comentando: true, //alterando de false para true
+      comentando: false, 
       numeroComentarios: this.state.numeroComentarios + 1
     })
   }
