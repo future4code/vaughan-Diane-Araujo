@@ -1,0 +1,12 @@
+{
+  "name": "aula-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "play": "node ./index.js",
+    "start": "node ./index2.js"
+  },
+  "author": "Amanda Rangel",
+  "license": "ISC"
+}
